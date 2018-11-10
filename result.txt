@@ -1,0 +1,21 @@
+k = 4 no highway - this is tt: [[0.]
+ [1.]
+ [1.]
+ [0.]] 
+this is loss 0.0
+Tensor("Sigmoid_2:0", shape=(?, 2), dtype=float32)
+
+
+k = 2 no highway - this is tt: [[0.]
+ [1.]
+ [1.]
+ [0.]] 
+this is loss 0.0
+Tensor("concat:0", shape=(?, 3), dtype=float32)
+
+
+k = 1 and highway - this is tt: [[0.]
+ [1.]
+ [1.]
+ [0.]] 
+this is loss 0.0
